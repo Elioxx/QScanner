@@ -3,7 +3,7 @@
 
 #include <QObject>
 
-class NetScanner
+class NetScanner : public QObject
 {
 public:
     NetScanner();
